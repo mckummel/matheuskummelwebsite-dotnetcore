@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="centered-text">
+    <h1>
+        Hi, I'm @Html.ActionLink("Matheus", "About", "Home", new { area = "" }, new { @class = "header-link" })!
+    </h1>
+    <h2>
+        And I'm a Software Developer
+    </h2>
+    <br />
+    <br />
+    <p>
+        <a class="socialnetwork" href="https://www.linkedin.com/in/matheus-kummel/" title="My LinkedIn profile">
+            <i class="fa fa-linkedin fa-2x"></i>
+        </a>
+        <a class="socialnetwork" href="https://www.instagram.com/matheus.kummel/" title="My Instagram profile">
+            <i class="fa fa-instagram fa-2x"></i>
+        </a>
+        <a class="socialnetwork" href="https://stackoverflow.com/users/story/8512195" title="My StackOverflow story">
+            <i class="fa fa-stack-overflow fa-2x"></i>
+        </a>
+        <a class="socialnetwork" href="https://github.com/mckummel" title="My GitHub page">
+            <i class="fa fa-github fa-2x"></i>
+        </a>
+    </p>
+
+</div>
+<footer>
+
+    <span>&copy; @DateTime.Now.Year - Matheus Kümmel</span>
+</footer>
